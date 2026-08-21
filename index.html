@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Политика конфиденциальности Nuke Net</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #17191f; color: #e8edf6; line-height: 1.65; }
+    main { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1, h2 { color: #fff; line-height: 1.25; }
+    h1 { margin-top: 0; font-size: clamp(2rem, 5vw, 3rem); }
+    h2 { margin-top: 2rem; font-size: 1.3rem; }
+    a { color: #35b9ff; }
+    .brand { color: #ff8a00; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .date { color: #aeb9cc; }
+    .language { margin: 48px 0 32px; border-top: 1px solid #343a47; padding-top: 32px; }
+    .notice { background: #222631; border: 1px solid #394151; border-radius: 12px; padding: 16px 18px; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="brand">Nuke Net · Nukedo</div>
+  <h1>Политика конфиденциальности Nuke Net</h1>
+  <p class="date">Дата вступления в силу: 21 августа 2026 года</p>
+  <p>Настоящая политика описывает обработку данных мобильным приложением <strong>Nuke Net</strong>, опубликованным разработчиком <strong>Nukedo</strong>.</p>
+
+  <h2>Назначение приложения</h2>
+  <p>Nuke Net — клиентское приложение для подключения к сетевым серверам, выбранным пользователем. Приложение использует Android VpnService для создания системного сетевого туннеля. Nukedo не предоставляет пользователям серверы доступа и не продаёт подписки на сторонние сетевые сервисы.</p>
+
+  <h2>Данные, хранящиеся на устройстве</h2>
+  <p>Добавленные пользователем ссылки подписок, полученные конфигурации серверов, настройки и служебные журналы сохраняются локально на устройстве. Nuke Net не отправляет эти данные разработчику. Локальные данные удаляются при очистке данных приложения или удалении приложения с устройства.</p>
+
+  <h2>Получение подписки</h2>
+  <p>При обновлении подписки Nuke Net обращается к адресу, который указал пользователь. Поставщику подписки могут передаваться:</p>
+  <ul>
+    <li>адрес подписки и содержащийся в нём токен доступа;</li>
+    <li>случайный идентификатор установки Nuke Net;</li>
+    <li>модель устройства, версия Android, язык и регион системы;</li>
+    <li>IP-адрес, неизбежно передаваемый при любом сетевом соединении.</li>
+  </ul>
+  <p>Эти сведения используются для получения совместимой конфигурации и авторизации у выбранного пользователем поставщика. Правила хранения и обработки таких данных определяются владельцем соответствующего сервиса.</p>
+
+  <h2>Сетевой туннель и VpnService</h2>
+  <p>После явного согласия пользователя Nuke Net использует Android VpnService для направления сетевого трафика через выбранный пользователем сервер. Приложение не записывает историю посещённых сайтов, не анализирует содержимое трафика в рекламных целях и не передаёт его Nukedo.</p>
+  <p>Выбранный сервер и оператор сети технически могут получать сетевые метаданные, включая исходный IP-адрес и адреса назначений. Обработка трафика выбранным сервером регулируется политикой его владельца. Пользователь должен подключаться только к серверам, которым доверяет.</p>
+
+  <h2>Проверка задержки</h2>
+  <p>При проверке задержки приложение устанавливает кратковременное TCP-соединение с адресами серверов из подписки. Содержимое пользовательского трафика при такой проверке не передаётся.</p>
+
+  <h2>Обновления</h2>
+  <p>Версия Nuke Net из Google Play получает обновления через Google Play. Версия, установленная из GitHub, периодически запрашивает публичный файл официального канала обновлений Nuke Net. Соответствующие платформы получают стандартные сетевые данные, включая IP-адрес, согласно собственным политикам конфиденциальности.</p>
+
+  <h2>Аналитика, реклама и продажа данных</h2>
+  <p>Nuke Net не содержит рекламных или аналитических SDK, не формирует рекламные профили и не продаёт пользовательские данные.</p>
+
+  <h2>Защита данных</h2>
+  <p>Сетевые конфигурации хранятся в защищённом хранилище Android. Соединение с конечной точкой туннеля использует параметры шифрования, заданные выбранной пользователем конфигурацией. Ни один способ передачи или хранения данных не может гарантировать абсолютную безопасность.</p>
+
+  <h2>Хранение и удаление данных</h2>
+  <p>Nukedo не ведёт серверную базу учётных записей Nuke Net и не хранит историю пользовательского трафика. Локальные данные можно удалить очисткой данных Nuke Net в настройках Android или удалением приложения. Для удаления сведений, полученных независимым поставщиком подписки или сервером, следует обратиться к владельцу соответствующего сервиса.</p>
+
+  <h2>Дети</h2>
+  <p>Nuke Net не предназначен специально для детей и сознательно не собирает персональные данные детей.</p>
+
+  <h2>Изменения политики</h2>
+  <p>Политика может обновляться при изменении функций приложения или требований законодательства. Дата действующей редакции указывается в начале страницы.</p>
+
+  <h2>Контакт</h2>
+  <p class="notice">По вопросам конфиденциальности и поддержки: <a href="mailto:support@nukedo.com">support@nukedo.com</a></p>
+
+  <section class="language" lang="en">
+    <h1>Nuke Net Privacy Policy</h1>
+    <p class="date">Effective date: August 21, 2026</p>
+    <p>This policy describes data handling by the <strong>Nuke Net</strong> mobile application, published by <strong>Nukedo</strong>.</p>
+
+    <h2>Purpose of the app</h2>
+    <p>Nuke Net is a client application for connecting to network servers selected by the user. It uses Android VpnService to create a system-wide network tunnel. Nukedo does not provide access servers or sell subscriptions to third-party network services.</p>
+
+    <h2>Data stored on the device</h2>
+    <p>Subscription links added by the user, downloaded server configurations, settings, and technical logs are stored locally on the device. Nuke Net does not send this data to the developer. Local data is removed when the user clears the app data or uninstalls the app.</p>
+
+    <h2>Subscription retrieval</h2>
+    <p>When a subscription is refreshed, Nuke Net contacts the address supplied by the user. The subscription provider may receive:</p>
+    <ul>
+      <li>the subscription address and any access token contained in it;</li>
+      <li>a randomly generated Nuke Net installation identifier;</li>
+      <li>device model, Android version, system language and region;</li>
+      <li>the IP address necessarily transmitted with any network connection.</li>
+    </ul>
+    <p>This information is used to retrieve a compatible configuration and authorize access with the provider selected by the user. Retention and processing by that service are governed by its owner’s policy.</p>
+
+    <h2>Network tunnel and VpnService</h2>
+    <p>After explicit user consent, Nuke Net uses Android VpnService to route network traffic through the server selected by the user. The app does not record browsing history, inspect traffic content for advertising, or send traffic to Nukedo.</p>
+    <p>The selected server and network operator may technically receive network metadata, including the source IP address and destination addresses. Processing by the selected server is governed by its owner’s policy. Users should connect only to servers they trust.</p>
+
+    <h2>Latency testing</h2>
+    <p>When testing latency, the app creates a short-lived TCP connection to server addresses contained in the subscription. User traffic content is not transmitted during this test.</p>
+
+    <h2>Updates</h2>
+    <p>The Google Play version receives updates through Google Play. The GitHub-distributed version periodically requests a public file from the official Nuke Net update channel. Those platforms receive standard network information, including the IP address, under their respective privacy policies.</p>
+
+    <h2>Analytics, advertising, and sale of data</h2>
+    <p>Nuke Net contains no advertising or analytics SDKs, does not create advertising profiles, and does not sell user data.</p>
+
+    <h2>Data security</h2>
+    <p>Network configurations are kept in Android protected storage. Connections to tunnel endpoints use the encryption settings provided by the user-selected configuration. No method of transmission or storage can guarantee absolute security.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>Nukedo does not maintain a Nuke Net account database or retain user traffic history. Local data can be removed by clearing Nuke Net data in Android settings or uninstalling the app. To delete information received by an independent subscription provider or server, contact the owner of that service.</p>
+
+    <h2>Children</h2>
+    <p>Nuke Net is not specifically directed to children and does not knowingly collect children’s personal data.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>This policy may be updated when the app’s functionality or legal requirements change. The effective date of the current version appears at the top of this page.</p>
+
+    <h2>Contact</h2>
+    <p class="notice">Privacy and support inquiries: <a href="mailto:support@nukedo.com">support@nukedo.com</a></p>
+  </section>
+</main>
+</body>
+</html>
