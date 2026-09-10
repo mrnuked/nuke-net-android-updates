@@ -1,8 +1,8 @@
 {
-  "version": "0.7.0",
-  "versionCode": 705,
-  "downloadUrl": "https://github.com/mrnuked/nuke-net-android-updates/releases/download/v0.7.0/NukeNet-Android-0.7.0.apk",
-  "releaseNotesUrl": "https://github.com/mrnuked/nuke-net-android-updates/releases/tag/v0.7.0",
-  "sha256": "EB8B2F4A361A206493AAD420EA39948BC03BC1632DB64FB7F8C811EEF64CD9FD",
-  "publishedAt": "2026-08-21T13:19:11Z"
+  "version": "0.7.1",
+  "versionCode": 706,
+  "downloadUrl": "https://github.com/mrnuked/nuke-net-android-updates/releases/download/v0.7.1/NukeNet-Android-0.7.1.apk",
+  "releaseNotesUrl": "https://github.com/mrnuked/nuke-net-android-updates/releases/tag/v0.7.1",
+  "sha256": "05D79E6542A73AEFA95046372EC5881DC195EEAFEE934233BD0A0627251B2FCE",
+  "publishedAt": "2026-09-10T19:25:58Z"
 }
